@@ -23,7 +23,7 @@ def getSequence(numbers, contents):
 
  
                 b = b+1
-                 newseq = "".join(lines)
+                newseq = "".join(lines)
                 clean = newseq.strip('\n')
  		sequences.append(clean)
 	return sequences
